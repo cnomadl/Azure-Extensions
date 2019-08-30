@@ -4,7 +4,7 @@
 ######################################
 
 #variables
-$regionalsettingsURL = "https://raw.githubusercontent.com/cnomadl/baltic-windows-azure-vm-deployment/master/gbRegional.xml"
+$regionalsettingsURL = "https://raw.githubusercontent.com/cnomadl/Azure-Extensions/master/gbRegional.xml"
 $RegionalSettings = "D:\gbRegion.xml"
 
 
