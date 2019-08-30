@@ -19,6 +19,7 @@ $webclient.DownloadFile($regionalsettingsURL,$RegionalSettings)
 # Set languages/culture. Not needed perse.
 Set-WinSystemLocale en-GB
 Set-WinUserLanguageList -LanguageList en-GB -Force
+Set-WinUILanguageOverride -Language en-GB
 Set-Culture -CultureInfo en-GB
 Set-WinHomeLocation -GeoId 242
 Set-TimeZone -Name "GMT Standard Time"
